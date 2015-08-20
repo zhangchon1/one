@@ -1,0 +1,47 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 9px;
+  padding: 2px 2px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  border:3px solid black;
+  background-color:pink;
+  height: 450px;
+  width: auto;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.container h3 {
+border:2px solid #ff0508;
+padding-top: 10px;
+padding-bottom: 150px;
+}
+
+
+.jumbotron h1 {
+  border:2px solid #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 36px;  
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.jumbotron p {
+  position: relative;
+  top: -250px;
+  left: 400px;
+  font-size: 20px;
+  color: black;
+}
+   
