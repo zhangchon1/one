@@ -9,39 +9,109 @@
   display: inline;
 }
 
-.jumbotron {
-  border:3px solid black;
-  background-color:pink;
-  height: 450px;
-  width: auto;
-}
-
-.jumbotron .container {
-  position: relative;
-  top:100px;
-}
-
 .container h3 {
-border:2px solid #ff0508;
-padding-top: 10px;
-padding-bottom: 150px;
-}
-
-
-.jumbotron h1 {
-  border:2px solid #fff;
+  border:2px solid #ff0508;
   padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 36px;  
-  margin-left: 400px;
-  margin-right: 400px;
+  padding-bottom: 60px;
 }
 
-.jumbotron p {
-  position: relative;
-  top: -250px;
-  left: 400px;
-  font-size: 20px;
-  color: black;
+.container h5 {
+  border:1px solid #ff0508;
+  padding-bottom: 150px;
 }
-   
+/*--items--*/
+
+.container ul {
+  border: 1px solid #ff0508;
+  padding-top: 10px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+}
+
+/*--!!!--*/
+
+.login-box {
+  border: 1px solid #ac7092;
+  color: black;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.signup-box {
+  border: 1px solid #ac7092;
+  color: black;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+/*--contact--*/
+.contact-grid input[type="text"] {
+	width: 100%;
+	padding: 6px;
+	border:1px solid #ac7092;
+	background: #f2dff1;  
+}
+
+.contact-grid {
+	padding: 0 2em 0 0;
+}
+
+.contact-grid  p {
+	margin: 8px 1px;
+	font-size: 12px;
+	width: 100%;
+	color: #433b43;
+}
+.contact-para textarea {
+	resize:none;
+	width: 96%;
+	padding: 1em;
+	margin:0 0 ;
+	background: #none;
+	outline:none;
+	border:1px solid #8d8d8d;
+	-webkit-appearance: none;
+}
+.contact-para input[type="submit"] {
+	width: 20%;
+	font-size: 1em;
+	background: #ac7092;
+	padding: 0.5em 1em;
+	text-align: center;
+	color: #fff;
+}
+
+p.your-para {
+    margin: 6px;
+	font-size: 12px;
+	width: 100%;
+	color: #433b43;
+}
+
+.contact-para input[type="submit"]:hover {
+	background: #f3ee5b;
+}
+.send {
+	padding: 0.8em 0em;
+}
+/*--cart--*/
+h4.cart {
+  border: 1px solid #ac7092;
+  max-width: 1000px;
+  color: black;
+  font-size: 1.2em;
+  text-align:center;
+}
+
+p.cart {
+  border: 1px solid #ac7092;
+  max-width: 1000px;
+  color: black;
+  font-size: 1.2em;
+  line-height: 1.8em;
+  text-align:center;
+}
+
+
+
+
